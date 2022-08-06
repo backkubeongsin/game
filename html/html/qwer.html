@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/qwer.css">
+</head>
+<body>
+
+
+
+
+
+  <div class="alter-box" id="alter-box">알림창<span onclick="닫기()">X</span></div>
+
+  <button onclick = "열기('block')">버튼</button>
+
+  <button onclick = "알림('아이디')">btn1</button>
+  <button onclick = "알림('비번')">btn2</button>
+  
+  <script>
+
+    function 열기(p){
+      document.getElementById('alter-box').style.display = p;
+  }
+
+  function 닫기(){
+      document.getElementById('alter-box').style.display = 'none';
+  }
+
+  function 알림(e){
+    alert(e)
+  }
+
+  </script>
+
+
+
+
+
+</body>
+</html>

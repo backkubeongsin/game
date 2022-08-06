@@ -1,0 +1,44 @@
+
+.img{
+  background-color: white;
+  box-sizing: border-box;
+  width: 75%;
+  height: 700px;
+  float: left;
+}
+
+.blog-profile{
+  width: 50px;
+  display: block;
+  float: left;
+  padding: 5px;
+}
+
+.blog-name{
+  margin-top: 10px;
+  float: left;
+}
+
+.time{
+  font-size: 13px;
+  color: grey
+}
+
+.blog-img{
+  width: 20%;
+  height: 200px;
+  float: left;
+  background-size: cover;
+}
+
+.blog-title{
+  margin: 15px 0px 15px 0px;
+  letter-spacing: -1px;
+  font-size: 18px;
+}
+
+.blog-para{
+  font-size: 15px;
+  color: grey;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

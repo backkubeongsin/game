@@ -1,0 +1,41 @@
+.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name{text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: gold;
+}
+
+#name{
+  color: crimson;
+
+}
+
+h1{
+  color: blue;
+
+}
+
+.job{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkorchid;
+}
+
+.txt-color-aqua{
+  color: aqua;
+}
+
+.box{
+  width: 50%;
+  background: blueviolet;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 100px 5px grey;
+}
